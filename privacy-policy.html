@@ -72,8 +72,8 @@ HP Anda sendiri.</p>
 Indonesia. Nama paket aplikasi: <code>id.acut.catatan</code>.</p>
 <p>Hubungi kami lewat email
 <strong><a href="mailto:jeumpaapp@gmail.com">jeumpaapp@gmail.com</a></strong>,
-lewat WhatsApp <strong>+62 851-1052-8601</strong>, atau lewat tombol
-“Hubungi kami lewat WhatsApp” di Pengaturan di dalam aplikasi.</p>
+atau lewat tombol “Hubungi kami lewat WhatsApp” di Pengaturan di dalam
+aplikasi.</p>
 
 <h2>2. Data yang tetap di HP Anda</h2>
 <p>Hal-hal berikut disimpan <strong>hanya</strong> di dalam HP Anda, di
@@ -93,12 +93,26 @@ mengenali Anda.</p>
 <h2>3. Izin yang diminta, dan untuk apa</h2>
 <table>
   <tr><th>Izin</th><th>Dipakai untuk</th></tr>
-  <tr><td>Internet</td><td>Mengambil pengumuman (Kabar), memeriksa versi baru, dan — bila Anda sendiri menghubungkannya — mengirim permintaan ke layanan AI pilihan Anda.</td></tr>
+  <tr><td>Internet</td><td><strong>Pada versi 1.0.0 ini, Jeumpa tidak
+      memakainya.</strong> Izinnya ada karena tiga hal yang sudah dibangun
+      tetapi dimatikan: pengumuman (Kabar), pemeriksaan versi baru, dan
+      bantuan AI dengan kunci Anda sendiri. Ketiganya mati, jadi versi ini
+      tidak mengirim maupun mengambil apa pun dari internet. Bila salah satu
+      dinyalakan pada versi berikutnya, halaman ini diperbarui lebih dulu.</td></tr>
   <tr><td>Mikrofon</td><td>Tombol “Bicara”, agar Anda bisa mencatat dengan berbicara. Diminta saat pertama kali Anda menekan tombol itu.</td></tr>
   <tr><td>Pemberitahuan</td><td>Pengingat dan Rekap Malam yang Anda sendiri pasang.</td></tr>
   <tr><td>Dinyalakan ulang</td><td>Memasang kembali pengingat Anda setelah HP dimatikan dan dinyalakan lagi.</td></tr>
-  <tr><td>Kamera &amp; galeri</td><td>Hanya saat Anda menekan tombol untuk melampirkan foto. Fotonya tetap di HP Anda.</td></tr>
+  <tr><td>Keadaan jaringan</td><td>Dipakai pustaka di dalam aplikasi untuk mengetahui ada atau tidaknya sambungan. Tidak membaca jaringan mana maupun alamat Anda.</td></tr>
+  <tr><td>Getar</td><td>Getaran pendek saat pemberitahuan pengingat berbunyi.</td></tr>
+  <tr><td>Jaga HP tetap bangun</td><td>Menahan HP tidak tidur beberapa saat ketika pengingat dijadwalkan ulang, supaya jadwalnya tidak hilang.</td></tr>
 </table>
+<p><em>Tiga izin terakhir tidak Anda tekan dan tidak ditanyakan; Android
+menyebutnya izin biasa, dan ia datang dari pustaka yang dipakai Jeumpa untuk
+pemberitahuan. Play menampilkannya di halaman aplikasi, jadi ia dituliskan di
+sini supaya daftarnya cocok dengan yang Anda lihat di sana.</em></p>
+<p>Jeumpa <strong>tidak</strong> meminta izin kamera. Foto hanya bisa masuk
+lewat tombol “Bagikan” milik Android, dari aplikasi lain — dan yang
+dibagikan itu Anda sendiri yang memilih.</p>
 <p>Jeumpa <strong>tidak</strong> meminta lokasi, kontak, SMS, catatan panggilan,
 maupun daftar aplikasi Anda.</p>
 
@@ -127,12 +141,19 @@ Ada dua cara memakainya:</p>
 Anda (misalnya ChatGPT, Gemini, atau Claude yang sudah Anda pasang). Jeumpa
 tidak mengirim apa pun; yang berlaku sesudah itu adalah kebijakan aplikasi
 tersebut.</p>
-<h3>b. Dengan kunci Gemini milik Anda sendiri</h3>
-<p>Bila Anda memasukkan kunci API Gemini Anda sendiri, maka saat Anda menekan
-tombol bantuan AI, <strong>isi tulisan yang Anda pilih dikirim ke server Google
-(<code>generativelanguage.googleapis.com</code>)</strong> memakai kunci Anda,
-lewat sambungan terenkripsi. Ini satu-satunya keadaan di mana isi catatan
-keluar dari HP Anda karena Jeumpa. Yang perlu Anda ketahui:</p>
+<h3>b. Dengan kunci Gemini milik Anda sendiri — <strong>DIMATIKAN pada
+versi 1.0.0</strong></h3>
+<p><strong>Jalan ini tidak ada di versi 1.0.0.</strong> Tidak ada tombol untuk
+memasang kunci, dan tidak ada tombol yang mengirim apa pun ke Google. Jadi
+pada versi ini <strong>tidak ada satu keadaan pun di mana isi catatan Anda
+keluar dari HP karena Jeumpa</strong>.</p>
+<p>Keterangan di bawah ditulis untuk versi berikutnya, bila jalan ini
+dinyalakan. Ia dibiarkan di sini supaya Anda bisa membacanya lebih dulu, bukan
+sesudahnya. Bila jalan itu dinyalakan, halaman ini dan jawaban Keamanan Data di
+Play diperbarui lebih dulu.</p>
+<p>Yang akan berlaku bila dinyalakan: isi tulisan yang Anda pilih dikirim ke
+server Google (<code>generativelanguage.googleapis.com</code>) memakai kunci
+Anda, lewat sambungan terenkripsi. Yang perlu Anda ketahui:</p>
 <ul>
   <li>hanya terjadi bila Anda sendiri yang menghubungkan kunci dan menekan tombolnya;</li>
   <li><strong>hanya tulisan.</strong> Catatan uang, utang, barang, dan nominal
@@ -236,8 +257,7 @@ money, debts, goods, photos, voice — stays in your own phone.</p>
 <p>Jeumpa is built and maintained by an individual developer in Banda Aceh,
 Indonesia. Application id: <code>id.acut.catatan</code>. Contact us by email at
 <strong><a href="mailto:jeumpaapp@gmail.com">jeumpaapp@gmail.com</a></strong>,
-on WhatsApp at <strong>+62 851-1052-8601</strong>, or through the “Contact us
-on WhatsApp” button in the app’s Settings.</p>
+or through the “Contact us on WhatsApp” button in the app’s Settings.</p>
 
 <h2>2. Data that stays on your phone</h2>
 <p>Your notes, money and debt records and their amounts, the partner or
